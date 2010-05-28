@@ -1,0 +1,91 @@
+.dead_snake .snake_part {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(snake_dead.gif);
+    /*background-color: #00FF00;*/
+}
+
+.snake_part {
+    position: absolute !important;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    background-image: url(snake.gif);
+    /*background-color: #00FF00;*/
+}
+    .snake_head_1 {
+        background-position: -25px  0px;
+    }
+    .snake_head_2 {
+        background-position: -50px 0px;
+    }
+    .snake_head_3 {
+        background-position: 0px 0px;
+    }
+    .snake_head_4 {
+        background-position: -75px 0px;
+    }
+    
+    .snake_head_dead_1 {
+        background-position: -25px  -100px;
+    }
+    .snake_head_dead_2 {
+        background-position: -50px -100px;
+    }
+    .snake_head_dead_3 {
+        background-position: 0px -100px;
+    }
+    .snake_head_dead_4 {
+        background-position: -75px -100px;
+    }
+    
+    
+    .snake_tail_1 {
+        background-position: -25px  -25px;
+    }
+    .snake_tail_2 {
+        background-position: -50px -25px;
+    }
+    .snake_tail_3 {
+        background-position: 0px -25px;
+    }
+    .snake_tail_4 {
+        background-position: -75px -25px;
+    }
+    
+    .snake_body_1_1, .snake_body_3_3 {
+        background-position: 0px -50px;
+    }
+    
+    .snake_body_2_2, .snake_body_4_4 {
+        background-position: -50px -50px;
+    }
+    
+    .snake_body_2_1, .snake_body_3_4 {
+        background-position: 0px -75px;
+    }
+    
+    .snake_body_1_4, .snake_body_2_3 {
+        background-position: -25px -75px;
+    }
+    .snake_body_1_2, .snake_body_4_3 {
+        background-position: -50px -75px;
+    }
+    
+    
+    .snake_body_4_1, .snake_body_3_2 {
+        background-position: -75px -75px;
+    }
+    
+.fruit {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: url(fruits.gif) no-repeat 0px 0px;
+   
+}
+.fruit.fruit1 { background-position: 0px 0px;}
+.fruit.fruit2 { background-position: 0px -25px;}
+.fruit.fruit3 { background-position: 0px -50px;}
+.fruit.fruit4 { background-position: 0px -75px;}

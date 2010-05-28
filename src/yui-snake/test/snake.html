@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Snake Game</title>
+<link rel="stylesheet" type="text/css" href="../asset/snake.css">
+
+<link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/3.1.1/build/cssfonts/fonts-min.css" />
+<script type="text/javascript" src="http://yui.yahooapis.com/3.1.1/build/yui/yui.js"></script>
+<script type="text/javascript" src="js/snake.js"></script>
+
+<script type="text/javascript">
+    YUI().use ("snake", function (Y) {
+        var snake = new Y.SnakeGame({div: "#grid"});
+    });
+
+</script>
+<style>
+    #jungle {
+        background: url(images/snake/bg.jpg);
+        float: left;
+        padding: 25px;
+        width: 400px;
+        height: 300px;
+        padding: 25px;
+    }
+    #grid {
+        position: relative;
+        overflow: show;
+        float: left; width: 400; height: 300;
+    }
+</style>
+</head>
+<body>
+  <div id="jungle">
+  <div id="grid"></div>
+  </div>
+  
+  <h4></h4>
+<div id="basic" style="float: left;"></div>
+</body>
+</html>
