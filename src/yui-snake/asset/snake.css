@@ -1,6 +1,6 @@
 .dead_snake .snake_part {
     position: absolute;
-    width: 25px;
+    width: 25px; 
     height: 25px;
     background-image: url(snake_dead.gif);
 }
@@ -77,7 +77,7 @@
     }
     
 .fruit {
-    position: absolute;
+    position: absolute !important;
     width: 25px;
     height: 25px;
     background: url(fruits.gif) no-repeat 0px 0px;
